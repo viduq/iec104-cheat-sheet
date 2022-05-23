@@ -5,14 +5,14 @@ IEC 60870-5-104 (IEC 104) is a telecontrol network protocol used in energy distr
 
 ## IEC 104 Frame Formats
 There are three different control field formats:
-**U-Format**
+- **U-Format**
   - consists of an APCI only
   - is used for controlling the connection: start, stop, test frames
   - each U-Format frame is sent as an "ACT" = activation and must be responded with a "CON" confirmation 
-**S-Format**
+- **S-Format**
   - consists of an APCI only
   - is only used for acknowledging I-Format frames
-**I-Format**
+- **I-Format**
   - contains information (one or multiple ASDU)
   - includes Sent and Receive Sequence Numbers
 
